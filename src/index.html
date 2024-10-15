@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./output.css" />
+    <!-- Link Slick -->
+    <link rel="stylesheet" href="../src/slick/slick.css" />
+    <title>ASTROSHIP</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section>
+      <header class="py-5 container">
+        <div class="flex justify-between">
+          <div class="flex gap-2 items-center">
+            <p class="font-bold text-xl text-[#4F46E5]">
+              Astro<span class="text-xl text-[#737E8D] font-normal">Ship</span>
+            </p>
+
+            <p class="bg-[#E5E7EB] px-2 py-1 rounded-md font-bold text-xs">
+              PRO
+            </p>
+          </div>
+          <div class="hidden lg:flex items-center gap-10">
+            <nav>
+              <a
+                class="text-[gray] font-normal hover:text-blue-500 cursor-pointer transition-all"
+                href="#"
+                >Pages<i class="fa-solid fa-angle-down text-xs ml-1"></i
+              ></a>
+            </nav>
+            <nav
+              class="text-[gray] font-normal hover:text-blue-500 cursor-pointer transition-all">
+              <a href="#">Pricing</a>
+            </nav>
+            <nav
+              class="text-[gray] font-normal hover:text-blue-500 cursor-pointer transition-all">
+              <a href="#">About</a>
+            </nav>
+            <nav
+              class="text-[gray] font-normal hover:text-blue-500 cursor-pointer transition-all">
+              <a href="#">Blog</a>
+            </nav>
+            <nav
+              class="text-[gray] font-normal hover:text-blue-500 cursor-pointer transition-all">
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+          <div class="hidden lg:flex items-center gap-6">
+            <nav>
+              <a href="">Login</a>
+            </nav>
+
+            <button
+              class="flex items-center bg-blue-600 rounded-3xl text-white px-4 py-2 hover:bg-blue-800 transition-all duration-300 ease-in-out group cursor-pointer">
+              Try for free
+              <span
+                class="ml-2 transition-transform duration-300 ease-in-out transform group-hover:translate-x-2"
+                ><i class="fa-solid fa-angle-right text-xs"></i
+              ></span>
+            </button>
+          </div>
+          <div class="text-black lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center">
+          <div class="max-w-2xl">
+            <h1 class="text-7xl font-bold mb-2">
+              Create websites with Astroship™
+            </h1>
+            <p class="max-w-lg text-lg text-[#737E8D] font-normal mb-4">
+              Pro version of popular Astroship starter template made for
+              startups. Built with Astro and Tailwind CSS.
+            </p>
+
+            <div class="flex gap-4">
+              <button
+                class="flex items-center bg-blue-600 rounded-3xl text-white px-6 py-2 hover:bg-blue-800 transition-all cursor-pointer">
+                Buy Template ─ $49
+              </button>
+              <button
+                class="flex items-center rounded-3xl text-blue-400 border border-blue-500 px-5 py-2 hover:bg-blue-200 transition-all cursor-pointer">
+                Free Version
+              </button>
+            </div>
+          </div>
+          <div class="drop-shadow-2xl">
+            <img
+              src="./assets/img/hero-screenshot.HaV5_ts2_ZE0EX9.avif"
+              alt="" />
+          </div>
+        </div>
+        <div class="text-center text-lg text-[#737E8D] font-normal">
+          <p>Trusted by popular startups you know</p>
+        </div>
+        <div>
+          <div
+            class="flex justify-center gap-40 items-center flex-wrap  mt-10">
+            <img
+              class="h-16 w-28 filter grayscale"
+              src="./assets/img/tải xuống.png"
+              alt="" />
+            <img
+              class="h-16 w-28 filter grayscale"
+              src="./assets/img/HubSpot-Logo-PNG_005.webp"
+              alt="" />
+            <img
+              class="h-16 w-28 filter grayscale"
+              src="./assets/img/intercom-logo1.png"
+              alt="" />
+            <img
+              class="h-16 w-28 filter grayscale"
+              src="./assets/img/Asana-Logo.png"
+              alt="" />
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- FEATURES -->
+    <section>
+      <div class="container">
+        <div class="flex flex-col justify-center items-center gap-2 mt-10">
+          <p>
+            <span
+              class="text-center border border-[#F3E8FF] bg-[#F3E8FF] text-purple-400 rounded-full text-xs py-1 px-2"
+              >TWO-COL FEATURES</span
+            >
+          </p>
+          <p class="text-4xl font-bold mb-2">Supercharge Your Workflows</p>
+          <p
+            class="max-w-3xl text-lg text-[#737E8D] font-normal mb-6 text-center">
+            Unlock your team's true potential with our state-of-the-art SaaS
+            platform. From intelligent task management to real-time
+            collaboration and top-notch data security, we have everything you
+            need to streamline your workflows and achieve high productivity.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 justify-center items-center">
+          <div class="drop-shadow-2xl p-4">
+            <img class=" w-[730px] h-[584px]" src="./assets/img/6.Ep0jo6kx_jbH81.avif" alt="" />
+          </div>
+          <div class="flex flex-col gap-2">
+            <p>
+              <span
+                class="border border-[#F3E8FF] bg-[#F3E8FF] text-purple-400 rounded-full text-xs py-1 px-2"
+                >Simplified Workflows
+              </span>
+            </p>
+            <p class="text-2xl max-w-lg font-bold">
+              Experience the Ultimate Boost in Productivity with Our Intuitive
+              Platform
+            </p>
+            <p class="max-w-lg text-lg text-[#737E8D] font-normal mb-4">
+              Streamline your tasks and collaborate seamlessly with our
+              cutting-edge SaaS startup platform. Unlock the potential of your
+              team and take productivity to new heights.
+            </p>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Intelligent Task Management</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Real-time Collaboration</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Data Security & Privacy</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <button
+                class="flex items-center bg-blue-600 rounded-3xl text-white px-4 py-2 hover:bg-blue-800 transition-all duration-300 ease-in-out group cursor-pointer">
+                Start 14-day trial
+                <span
+                  class="ml-2 transition-transform duration-300 ease-in-out transform group-hover:translate-x-2"
+                  ><i class="fa-solid fa-angle-right text-xs"></i
+                ></span>
+              </button>
+              <a class="hover:text-blue-800" href="#">Contact Sale</a>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2 mb-10 lg:">
+            <p>
+              <span
+                class="border border-[#F3E8FF] bg-[#F3E8FF] text-purple-400 rounded-full text-xs py-1 px-2"
+                >AI-Powered Insights
+              </span>
+            </p>
+            <p class="text-2xl max-w-lg font-bold">
+              Supercharge Your Marketing Strategy with Advanced Analytics
+            </p>
+            <p class="max-w-lg text-lg text-[#737E8D] font-normal mb-4">
+              Harness the potential of AI-driven marketing analytics to optimize
+              your campaigns, understand your audience better, and achieve
+              unprecedented growth.
+            </p>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Smart Audience Segmentation</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Predictive Campaign Performance</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Real-time Data Visualization</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <button
+                class="flex items-center bg-blue-600 rounded-3xl text-white px-4 py-2 hover:bg-blue-800 transition-all duration-300 ease-in-out group cursor-pointer">
+                Start 14-day trial
+                <span
+                  class="ml-2 transition-transform duration-300 ease-in-out transform group-hover:translate-x-2"
+                  ><i class="fa-solid fa-angle-right text-xs"></i
+                ></span>
+              </button>
+              <a class="hover:text-blue-800" href="#">Contact Sale</a>
+            </div>
+          </div>
+          <div class="drop-shadow-2xl m-auto w-[730px] w- h-[584px]">
+            <img src="./assets/img/2.ldT67BXv_ZIfUrc.avif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section>
+      <div class="text-center">
+        <p class="text-4xl font-bold mb-3">
+          Clients <span class="text-[#4F46E5]">Testimonials</span>
+        </p>
+        <p class="text-lg text-[#737E8D] font-normal">
+          Astroship is trusted by the world's leading companies and brands.
+        </p>
+      </div>
+      <div class="flex gap-10 auto-play mx-auto">
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            Astroship has been a lifesaver for our finance department. Its
+            robust accounting features and automated invoicing have saved us
+            countless hours of manual work. It's the perfect financial companion
+            for any business!
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1586297135537-94bc9ba060aa_Z1Fyyj6.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">Emily Brown</p>
+              <p class="text-sm">HR Manager at ConnectCo</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            Astroship has been a lifesaver for our finance department. Its
+            robust accounting features and automated invoicing have saved us
+            countless hours of manual work. It's the perfect financial companion
+            for any business!
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1544725176-7c40e5a71c5e_Z1lyXse.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">Sarah Martinez</p>
+              <p class="text-sm">Finance Controller at MoneyMakers</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            Our sales team swears by Astroship's CRM capabilities. The lead
+            tracking and pipeline management tools have resulted in a
+            significant boost in sales. It's a versatile platform that has truly
+            optimized our sales processes.
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1601455763557-db1bea8a9a5a_29sU8f.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">David Lee</p>
+              <p class="text-sm">Sales Director at Linkify</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            Astroship has transformed the way we manage our projects. Its
+            well-designed interface and powerful features make it a must-have
+            tool for any startup. We've seen a great increase in our
+            productivity and collaboration.
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1624298357597-fd92dfbec01d_Zgg5Mo.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">John Doe</p>
+              <p class="text-sm">CEO at TechCorp</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            As a marketing professional, I love using Astroship to streamline
+            our marketing campaigns. The automation features and data analytics
+            help us make data-driven decisions and optimize our business
+            strategies.
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1607746882042-944635dfe10e_2tsWf.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">Jane Smith</p>
+              <p class="text-sm">Marketing Manager at InnovateTech</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#F7F7FD] mr-5 ml-5 mt-10 py-6 px-4 rounded-3xl border border-solid">
+          <p class="max-w-xs font-normal text-lg">
+            Astroship has revolutionized the way we handle customer support. The
+            ticketing system and knowledge base have significantly reduced
+            response times, leading to happier customers. Thanks to this
+            incredible tool.
+          </p>
+          <div class="flex gap-2 items-center">
+            <img
+              class="rounded-full w-12 h-12"
+              src="./assets/img/photo-1639149888905-fb39731f2e6c_Z2fltfd.avif"
+              alt="" />
+            <div>
+              <p class="font-medium">Mike Johnson</p>
+              <p class="text-sm">CTO at CloudNine</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-10"></div>
+    </section>
+
+    <section id="everything">
+      <div class="px-36">
+        <div class="mt-24">
+          <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">Everything you need to <span class="text-[#4F46E5]">start a website</span> </h2>
+          <p class="text-lg mt-4 text-[#888]">Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-5 mt-16 gap-10">
+          <div class="rounded-2xl p-8 bg-gray-50 transition-all ring-1 ring-gray-200/50 shadow hover:shadow-lg lg:col-span-3">
+            <div>
+              <img src="./assets/img/anh1.jpg" alt="">
+            </div>
+            <div>
+              <span class=" bg-[#F3E8FF] px-3 py-1 rounded-full outline-none text-[#9333EA] text-xs font-medium">
+                Astroship
+              </span>
+              <p class="text-xl lg:text-2xl font-medium mt-2">Responsive Template</p>
+              <p class="text-[#888] mt-2 [text-wrap:balance]">Astroship is a creative and modern mobile responsive website template that helps you create any kind of marketing websites or landing pages.</p>
+            </div>
+          </div>
+
+          <div class="rounded-2xl p-8 bg-gray-50 transition-all ring-1 ring-gray-200/50 shadow hover:shadow-lg lg:col-span-2">
+            <div class="overflow-hidden flex items-start justify-center h-auto relative lg:h-80">
+                <img  src="./assets/img/anh1.jpg " alt="" class="h-full w-full object-contain">
+
+            </div>
+            <div class="mt-24">
+              <span class=" bg-[#F3E8FF] px-3 py-1 rounded-full outline-none text-[#9333EA] text-xs font-medium">
+                Creative
+              </span>
+              <p class="text-xl lg:text-2xl font-medium mt-2">Next Level Template</p>
+              <p class="text-[#888] mt-2 [text-wrap:balance]">Astroship is a new kind of website template that integrates your favorite tools and workflows.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-10">
+          <div class="rounded-2xl p-8 bg-gray-50 transition-all ring-1 ring-gray-200/50 shadow hover:shadow-lg">
+            <div class="overflow-hidden flex items-start justify-center h-auto relative lg:h-80">
+              <img src="./assets/img/anh2.jpg" alt="">
+            </div>
+            <div>
+              <span class=" bg-[#F3E8FF] px-3 py-1 rounded-full outline-none text-[#9333EA] text-xs font-medium">
+                Template
+              </span>
+              <p class="text-xl lg:text-2xl font-medium mt-2">Modern Design</p>
+              <p class="text-[#888] mt-2 [text-wrap:balance]">Feeling old? Try this template and be a part of the modern design.</p>
+            </div>
+          </div>
+
+
+          <div class="rounded-2xl p-8 bg-gray-50 transition-all ring-1 ring-gray-200/50 shadow hover:shadow-lg">
+
+            
+            <div class="overflow-hidden flex items-start justify-center h-auto relative lg:h-80">
+              <img src="./assets/img/anh1.jpg" alt="">
+            </div>
+            <div>
+              <span class=" bg-[#F3E8FF] px-3 py-1 rounded-full outline-none text-[#9333EA] text-xs font-medium">
+                Product
+              </span>
+              <p class="text-xl lg:text-2xl font-medium mt-2">Highlight Features</p>
+              <p class="text-[#888] mt-2 [text-wrap:balance]">You can highlight your features in a trendy grid like this one.</p>
+            </div>
+          </div>
+          
+          <div class="rounded-2xl p-8 bg-gray-50 transition-all ring-1 ring-gray-200/50 shadow hover:shadow-lg">
+            <div class="overflow-hidden flex items-start justify-center h-auto relative lg:h-80">
+              <img src="./assets/img/anh3.jpg" alt="">
+            </div>
+            <div>
+              <span class="bg-gray-100 border-gray-200 border text-gray-800 rounded-full text-xs font-medium px-3 py-1 ">
+                Webhooks
+              </span>
+              <p class="text-xl lg:text-2xl font-medium mt-2">100+ Integrations</p>
+              <p class="text-[#888] mt-2 [text-wrap:balance]">Astroship can be integrated with hundreds of tools using Zapier.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+    <section id="features" class="mt-24">
+      <div>
+        <div class="flex flex-col items-center text-center">
+          <p
+            class="uppercase bg-[#F3E8FF] px-3 py-1 rounded-full outline-none text-[#9333EA] text-xs font-medium"
+          >
+            more features
+          </p>
+          <h2 class="text-5xl font-bold mt-2 text-center">
+            We've got you covered
+          </h2>
+          <p class="text-lg mt-4 text-[#888] text-center [text-wrap:pretty]">
+            Our template covers all things SAAS. If you don't find what you're
+            looking for,  contact us  <hr> <span class="text-lg  text-[#888] text-center [text-wrap:pretty]"> and we'll either help you or steer you in
+              the right direction.</span> 
+          </p>
+        </div>
+
+        <div class="px-32 grid grid-cols-3 mt-16 gap-12">
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fas fa-file-code icon text-blue-500"></i>
+            </div>
+            <p class="font-semibold text-lg">Bring Your Own Framework</p>
+            <p class="text-[#888]">
+              Build your site using React, Svelte, Vue, Preact, web components,
+              or just plain ol' HTML + JavaScript.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fas fa-trophy icon text-blue-500"></i>
+
+            </div>
+            <p class="font-semibold text-lg">100% Static HTML, No JS</p>
+            <p class="text-[#888]">
+              Astro renders your entire page to static HTML, removing all
+              JavaScript from your final build by default.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fas fa-cube icon text-blue-500"></i>
+
+            </div>
+            <p class="font-semibold text-lg">On-Demand Components</p>
+            <p class="text-[#888]">
+              Need some JS? Astro can automatically hydrate interactive
+              components when they become visible on the page.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fa-solid fa-boxes-stacked text-blue-500"></i>
+
+            </div>
+            <p class="font-semibold text-lg">Broad Integration</p>
+            <p class="text-[#888]">
+              Astro supports TypeScript, Scoped CSS, CSS Modules, Sass,
+              Tailwind, Markdown, MDX, and any other npm packages.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fa-solid fa-book text-blue-500"></i>
+
+            </div>
+            <p class="font-semibold text-lg">SEO Enabled</p>
+            <p class="text-[#888]">
+              Automatic sitemaps, RSS feeds, pagination and collections take the
+              pain out of SEO and syndication. It just works!
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-2 items-start group hover:bg-slate-50 hover:border-slate-100 border border-transparent rounded-lg transition-all p-5">
+            <div class="mt-1 bg-indigo-50 border shadow shadow-indigo-100/50 border-indigo-100 transition-colors rounded-lg grid place-items-center w-10 h-10">
+              <i class="fa-solid fa-users text-blue-500"></i>
+
+            </div>
+            <p class="font-semibold text-lg">Community</p>
+            <p class="text-[#888]">
+              Astro is an open source project powered by hundreds of
+              contributors making thousands of individual contributions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="build">
+      <div
+        class="bg-gradient-to-bl from-[#332F87] to-[#3D35B2] py-20 mt-20 flex flex-col items-center text-center"
+      >
+        <h2 class="text-white text-6xl mb-5">Build faster websites.</h2>
+        <p class="text-[#C4C2E5] text-xl mb-5">
+          Pull content from anywhere and serve it fast with Astro's next-gen
+          island architecture.
+        </p>
+        <a
+          href="#"
+          class="text-[#4F49AE] bg-[#fff] p-3 px-6 rounded-full outline-none"
+        >
+          Sign up for a 14-day Trial
+        </a>
+      </div>
+    </section>
+    <footer class="px-36 pt-16">
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div class="space-y-4 sm:col-span-2 md:col-span-3 lg:col-span-2">
+          <a href="#" class="text-lg flex items-center"
+            ><span class="font-bold text-[#4F46E5]">Astro</span>
+            <span class="text-[#888]">ship</span>
+            <span
+              class="mt-0.5 leading-none text-[10px] ml-1 font-bold bg-gray-200 text-slate-700 px-2 py-1 rounded-md"
+              >PRO</span
+            ></a
+          >
+          <p class="mt-4 text-sm text-slate-700 max-w-xs">
+            Astroship Pro is a premium astro website template made for saas &
+            startups. Built with Astro and Tailwind CSS.
+          </p>
+          <a href="#" class="flex gap-3 mt-4 items-center">
+            <i
+              class="fa-brands fa-twitter bg-gray-200 text-[#888] hover:bg-slate-300 px-2 py-1 rounded-md text-sm"
+            ></i>
+            <i
+              class="fa-brands fa-facebook bg-gray-200 text-[#888] hover:bg-slate-300 px-2 py-1 rounded-md text-sm"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin bg-gray-200 text-[#888] hover:bg-slate-300 px-2 py-1 rounded-md text-sm"
+            ></i>
+          </a>
+        </div>
+
+        <div class="flex flex-col mt-3 space-y-4">
+          <p>Company</p>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500">About</a>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Careers</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500">Blog</a>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Contact</a
+          >
+        </div>
+
+        <div class="flex flex-col mt-3 space-y-4">
+          <p>Product</p>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >For Startups</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Features</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Pricing</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Integrations</a
+          >
+        </div>
+
+        <div class="flex flex-col mt-3 space-y-4">
+          <p>Resources</p>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Help Center</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500">Guides</a>
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Documentation</a
+          >
+          <a href="#" class="text-sm text-[#888] hover:text-blue-500"
+            >Uptime Status</a
+          >
+        </div>
+      </div>
+    </footer>
+    <div class="mt-14 pt-8 px-5 border-t border-slate-200 pb-16">
+      <div class="max-w-screen-xl mx-auto px-5">
+        <p class="text-center text-sm text-[#888] [text-wrap:balance]">
+          Copyright © 2024 Astroship. All rights reserved.
+        </p>
+        <p class="text-center text-xs text-[#888] mt-2">
+          <a href="#" class="hover:text-blue-500">Terms</a> ・
+          <a href="#" class="hover:text-blue-500">Privacy</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <!-- Link Slick JS -->
+    <script src="../src/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".auto-play").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1, // Chuyển 1 slide mỗi lần
+          autoplay: true,
+          autoplaySpeed: 0, // Không có thời gian dừng giữa các slide
+          speed: 3000, // Tốc độ chuyển tiếp
+          cssEase: "linear", // Sử dụng linear easing
+          dots: false,
+          arrows: false,
+          infinite: true, // Cho phé
+        });
+      });
+    </script>
+  </body>
+</html>
